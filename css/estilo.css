@@ -1,0 +1,350 @@
+html,body{
+
+	height: 100%;
+	
+}
+footer{
+	
+}
+.box-invisivel{
+	display: none;
+}
+
+.invisivel{
+	visibility: hidden;
+}
+
+.dicas{
+	width: 30%;
+	height: 10rem;
+	background: #6495ED;
+	color: #fff;
+	font-size: 1.3rem;
+	font-family: arial;
+	text-align: justify;
+	padding-top: 5%;
+	padding-left: 5%;
+	margin-top: -5%;
+	margin-left: 60%;
+	border-radius: 20%;
+	position: relative; 
+}
+.erro-msg{
+	width: 30%;
+	height: 5rem;
+	background: #f6ff00;
+	font-weight: bold;
+	border-radius: 5%;
+	position: relative;
+	margin-left: 10%;
+	margin-top: -25%;
+	padding: 1em;
+}
+.container {
+	width: 100%;
+	max-width: 1350px;
+	min-height:100%;
+	background-image: linear-gradient(90deg, #0076a3,  #000);
+	margin: 0;
+	position: relative;
+
+
+}
+.push{
+	width: 100%;
+	height: 1rem;
+}
+.perdeu{
+	margin-top: 10%;
+	margin-left: 5%;
+	width: 90%;
+	height: 20rem;
+	background:  #B22222;
+	position: relative;
+	color: #fff;
+	font-size: 2rem;
+	font-family: arial;
+	text-align: center;
+	padding-top: 10%;
+
+}
+.ganhou{
+	margin-top: 10%;
+	margin-left: 5%;
+	width: 90%;
+	height: 20rem;
+	background:  #6495ED;
+	position: relative;
+	color: #fff;
+	font-size: 2rem;
+	font-family: arial;
+	text-align: center;
+	padding-top: 10%;
+
+}
+.arvore {
+	width: 50%;
+	height: 0 auto;
+	margin-left: 45%;
+	margin-top: -4%;
+	position: relative;
+	z-index: 209;
+}
+
+.zombiFull{
+	width: 240px;
+	height: 271px;
+	position: relative;
+	margin-top: 15.5%;
+	margin-left: 48%;
+}
+
+.part-zombi{
+
+	display: block;
+	margin:0;
+	position: relative;
+}
+#cabeca{
+	z-index: 215;
+
+}
+#corpo{
+
+margin-top: -113%;
+z-index: 213;
+	
+}
+#bdireito{
+ margin-top: -113%;	
+ z-index: 211;
+}
+#pdireita{
+	margin-top: -113%;
+	z-index: 210;
+	
+}
+
+#besquerdo{
+	margin-top: -113%;
+	z-index: 214;
+	
+}
+#pesquerda{
+	margin-top: -113%;
+	z-index: 212;
+	
+}
+
+
+
+.zombii {
+	width: 33%;
+	height: 0 auto;
+	margin-left: 45%;
+	margin-top: -12%;
+	margin-bottom: 10%;
+	position: relative;
+}
+
+#img-titulo{
+	width: 50%;
+	height: 20%;
+	position: relative;
+}
+
+.contErros{
+	width: 8%;
+	height: 5.5rem;
+	background: #000;
+	margin-top: -42%;
+	margin-left: 50%;
+	border-radius: 50%;
+	border:5px solid #bd0d0d;
+	color: #fff;
+	font-family: arial;
+	font-size: 5rem;
+	text-align: center;
+	position: relative;
+
+}
+
+.tentaiva-letra{
+	width: 25%;
+	height: 5.5rem;
+	margin-top: 5%;
+	margin-left: 10%;
+	border-radius:-10%;
+	border:4px solid #00008B;
+	background: #fff;
+	font-family: arial;
+	font-size: 2rem;
+	color: #000;
+
+}
+
+.box-footer{
+	position: relative;
+	margin-top: 0;
+	margin-left: -10%;
+
+}
+
+.box-titulos{
+	color: #fff;
+	font-size: 1.2rem;
+	font-family: arial;
+	position: relative;
+
+}
+#campo-palavra{
+
+	position: relative;
+	margin-top: -14%;
+	margin-left: 2%;
+}
+
+#campo-tentativas{
+	
+	position: relative;
+	margin-top: 5%;
+	margin-left: 1.5%;
+}
+#letras{
+	 
+	text-shadow:#000 1px -1px, #000 -1px 1px, #000 1px 1px, #000 -1px -1px;
+
+}
+
+
+
+.box-formulario-index{
+	position: relative;
+	margin-top: 10%;
+	margin-left: 10%;
+}
+.formulario-index{
+	width: 50%;
+	height: 50%;
+
+}
+
+.formulario-index input[type=password]{
+	width: 100%;
+	background: transparent;
+	border:transparent;
+	border-bottom: 1px solid #2dbfbf;
+	outline: none;
+	color:#fff;
+	font-size: 1.3rem;
+	padding:0.25em;
+	
+}
+.box-formulario{
+	position: relative;
+	margin-top: -30%;
+	margin-left: 10%;
+
+}
+.formulario{
+	width: 30%;
+	height: 50%;
+
+}
+.formulario input[type=text]{
+	width: 100%;
+	background: transparent;
+	border:transparent;
+	border-bottom: 1px solid #2dbfbf;
+	outline: none;
+	color:#fff;
+	font-size: 1.3rem;
+	padding:0.25em;
+	 text-transform: uppercase;
+}
+::-webkit-input-placeholder {
+   color: white;
+}
+
+.botao{
+	  width: 50%;
+	  height: 2rem; 
+	  margin-top: 1rem;
+	  margin-left: 20%; 
+	  color: #fff;
+	  background-image: linear-gradient(45deg, #000, #bd0d0d);
+	  font-size: 1rem;
+	  font-weight: bold;
+	  text-align:center;
+	  border-radius: 1px;
+	  border: none;
+	  cursor: pointer;
+	  overflow: hidden;
+	  -webkit-transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+	  transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+	  z-index: 2;
+}
+
+.botao-restart{
+	  width: 15%;
+	  height: 2rem; 
+	  margin-top: 22%;
+	  margin-left: 70%; 
+	  position: relative;
+	  color: #fff;
+	  background-image: linear-gradient(45deg, #077305, #15ed10);
+	  font-size: 1rem;
+	  font-weight: bold;
+	  text-align:center;
+	  border-radius: 1px;
+	  border: #000 2px solid;
+	  cursor: pointer;
+	  overflow: hidden;
+	  -webkit-transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+	  transition: width 0.3s 0.15s, font-size 0.1s 0.15s;
+	  z-index: 999;
+}
+
+
+.label-box{
+	position: relative;
+	margin-top: -5.5%;
+	margin-left:5%;
+	width: 5%;
+
+}
+.label-box-index{
+	position: relative;
+	margin-top: -5.5%;
+	margin-left: 3%;
+	width: 5%;
+
+}
+#letra{
+	z-index: 999;
+}
+#label{
+	color: #fff;
+	font-size: 1.5rem;
+	font-family: arial; 
+	width: 5%;
+}
+
+#palavra{
+	z-index: 999;
+}
+
+.game-box{
+	color: #15ed10;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: arial;
+	position: relative;
+	margin-top: -14%;
+	margin-left: 10%;
+}
+#espacos{
+	position: relative;
+	margin-top:-2%;
+	
+}
